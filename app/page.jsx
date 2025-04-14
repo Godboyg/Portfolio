@@ -25,7 +25,7 @@ function page() {
   return (
     <>
     <div className="w-full bg-gray-900">
-      <div className={`flex item-center justify-between max-sm:items-center max-sm:justify-between transition-all duration-300 fixed top-0 z-10 bg-black w-full py-4 px-20 max-sm:px-10  ${scrolled ? 'bg-black text-cyan-300 shadow-lg' : 'bg-transparent text-cyan-400'}`}>
+      <div className={`flex item-center justify-between max-sm:items-center max-sm:justify-between transition-all duration-300 fixed top-0 z-10 bg-black w-full py-6 px-20 max-sm:px-10  ${scrolled ? 'bg-black text-cyan-300 shadow-lg' : 'bg-transparent text-cyan-400'}`}>
         <h1 className='font-black text-[2vw] max-sm:text-[7vw] flex items-center justify-center hover:cursor-pointer transition duration-400 ease-in-out hover:scale-105'>Kushal</h1>
         <nav className="shadow z-50 p-4 max-sm:hidden">
           <ul className="flex justify-center gap-10">
@@ -69,7 +69,7 @@ function page() {
         </section>
         <section className='h-screen w-full absolute top-0 px-30 py-40 max-sm:px-10 max-sm:py-25'>
           <p className='text-2xl text-cyan-600'>INTRODUCTION</p>
-          <h1 className='text-7xl font-bold tracking-wider text-white'>SKills.</h1>
+          <h1 className='text-7xl font-bold tracking-wider text-white max-sm:text-6xl'>SKills.</h1>
           <p className='text-cyan-400 mt-5 leading-7 max-sm:leading-10'>
             Hey! I'm a passionate Full-Stack Developer with a focus on the MERN stack (MongoDB, Express.js, React, and Node.js). I'm currently in my second year of studies, constantly building real-world projects to sharpen my skills and stay ahead in the ever-evolving world of web development.
             <br /><br />
@@ -85,7 +85,7 @@ function page() {
         </section>
         <section className='h-screen w-full absolute top-0 px-30 py-40 max-sm:px-10 max-sm:py-25'>
           <p className='text-2xl text-cyan-600'>MY WORK</p>
-          <h1 className='text-7xl font-bold tracking-wider text-white'>PROJECTS.</h1>
+          <h1 className='text-7xl font-bold tracking-wider text-white max-sm:text-5xl'>PROJECTS.</h1>
           <p className='text-cyan-400 mt-5 leading-10'>
           I am a passionate and detail-oriented Full Stack MERN Developer with hands-on experience in building dynamic, scalable, and user-focused web applications. 
           Proficient in MongoDB, Express.js, React.js, and Node.js, I specialize in crafting end-to-end solutions that combine efficient backend architectures with clean, responsive frontends. 

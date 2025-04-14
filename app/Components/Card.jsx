@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function Card({ h , img , d , tech , url}) {
   return (
-    <div className="text-white relative h-[97vh] rounded-md w-[28vw] max-sm:w-[40vw] max-sm:h-[70vh] bg-black p-4">
+    <div className="text-white relative h-[97vh] rounded-md w-[28vw] max-sm:w-[35vw] max-sm:h-[70vh] bg-black p-4">
       <div className="">
         <div className="h-[40vh] max-sm:h-[25vh] w-full rounded-md overflow-hidden">
             <Image

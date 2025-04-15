@@ -70,7 +70,7 @@ function page() {
         <section className='h-screen w-full absolute top-0 px-30 py-40 max-sm:px-10 max-sm:py-25'>
           <p className='text-2xl text-cyan-600'>INTRODUCTION</p>
           <h1 className='text-7xl font-bold tracking-wider text-white max-sm:text-6xl'>SKills.</h1>
-          <p className='text-cyan-400 mt-5 leading-7 max-sm:leading-10 max-sm:text-[1.2vw]'>
+          <p className='text-cyan-400 mt-5 leading-7 max-sm:leading-10 max-sm:text-[1.4vw]'>
             Hey! I'm a passionate Full-Stack Developer with a focus on the MERN stack (MongoDB, Express.js, React, and Node.js). I'm currently in my second year of studies, constantly building real-world projects to sharpen my skills and stay ahead in the ever-evolving world of web development.
             <br /><br />
              I love turning ideas into functional, responsive, and beautiful web applications. Whether it's real-time apps with sockets, API integrations, or building scalable backend systems — I'm all in.
@@ -86,7 +86,7 @@ function page() {
         <section className='h-screen w-full absolute top-0 px-30 py-40 max-sm:px-10 max-sm:py-25'>
           <p className='text-2xl text-cyan-600'>MY WORK</p>
           <h1 className='text-7xl font-bold tracking-wider text-white max-sm:text-5xl'>PROJECTS.</h1>
-          <p className='text-cyan-400 mt-5 leading-10 max-sm:text-[1.2vw]'>
+          <p className='text-cyan-400 mt-5 leading-10 max-sm:text-[1.4vw]'>
           I am a passionate and detail-oriented Full Stack MERN Developer with hands-on experience in building dynamic, scalable, and user-focused web applications. 
           Proficient in MongoDB, Express.js, React.js, and Node.js, I specialize in crafting end-to-end solutions that combine efficient backend architectures with clean, responsive frontends. 
           My development approach focuses on writing clean, maintainable code, implementing real-time functionalities, and integrating third-party APIs and AI tools to enhance user experience. 

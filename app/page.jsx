@@ -102,7 +102,7 @@ function page() {
            Built with the MERN stack and WebSockets (Socket.IO), the app enables seamless peer-to-peer video calls using WebRTC and matches users based on shared or related interests. 
            It features dynamic socket management, fast signaling, and a clean UI for smooth user experience. Designed for scalability and performance, the app provides an engaging way for users to meet and interact face-to-face based on what they truly care about."
            tech="#React #Node/Express #Mongoose #Google Gemini #JWT #Socket.io #WebRTC"
-           url="https://aivediochatapp.netlify.app/"
+           url="https://deepmeet.netlify.app/"
           />
           <Card 
           h="Figma TO React" 

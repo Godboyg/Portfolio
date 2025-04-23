@@ -115,7 +115,7 @@ function page() {
           />
           <Card 
           h="🍽️ DailyFood" 
-          img={project2}
+          img={project3}
           d="DailyFood is your go-to app for discovering delicious daily meal inspirations! Whether you're looking for quick recipes, healthy options, or something new to try, DailyFood serves up fresh ideas every day to keep your meals exciting and hassle-free."
            tech="#React #Redux #Node #Express #Mongodb #Tailwind CSS"
            url="https://dailyfoodapp.netlify.app/"

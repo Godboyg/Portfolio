@@ -113,6 +113,13 @@ function page() {
            tech="#React  #Tailwind CSS"
            url="https://techoreact.netlify.app/"
           />
+          <Card 
+          h="🍽️ DailyFood" 
+          img={project2}
+          d="DailyFood is your go-to app for discovering delicious daily meal inspirations! Whether you're looking for quick recipes, healthy options, or something new to try, DailyFood serves up fresh ideas every day to keep your meals exciting and hassle-free."
+           tech="#React #Redux #Node #Express #Mongodb #Tailwind CSS"
+           url="https://dailyfoodapp.netlify.app/"
+          />
         </div>
         <div id='contact' className="h-screen w-full text-white px-30 py-30 max-sm:h-[50vh] max-sm:px-10 max-sm:py-5">
           <div className="h-full w-full p-10 bg-cyan-700 rounded-lg">

@@ -7,6 +7,8 @@ import Card from './Components/Card';
 import Image from 'next/image';
 import project1 from "../public/project1.jpeg"
 import project2 from "../public/project2.jpeg"
+import project3 from "../public/project3.jpeg"
+import project4 from "../public/project4.jpeg"
 
 function page() {
 

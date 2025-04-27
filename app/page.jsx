@@ -54,7 +54,7 @@ function page() {
            <h1 className='font-bold text-3xl text-cyan-500'>Welcome !!</h1>
            <p className='font-bold text-4xl text-cyan-600 max-sm:text-center'>I'm a Full Stack Developer</p>
            <div className="h-12 w-24 bg-cyan-200 mt-5 rounded-md">
-            <a href="https://drive.google.com/file/d/1LRJJRpAMDg0XLlBnQbxIg1vM9sFmZmbj/view?usp=drive_link" target='_blank' className="font-bold h-full w-full flex items-center justify-center ">Resume</a>
+            <a href="https://drive.google.com/file/d/1H4-9arVgb0B3AWolZfmz-cYhkouMbSHu/view?usp=drive_link" target='_blank' className="font-bold h-full w-full flex items-center justify-center ">Resume</a>
            </div>
          </div>
          <div className="w-[50%] flex items-center justify-center max-sm:w-full">

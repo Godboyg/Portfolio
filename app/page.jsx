@@ -120,6 +120,13 @@ function page() {
            tech="#React #Redux #Node #Express #Mongodb #Tailwind CSS"
            url="https://dailyfoodapp.netlify.app/"
           />
+          <Card 
+          h="Book Review Platform" 
+          img={project4}
+          d="This is a web platform where users can browse, review, and rate books. Built with a modern frontend stack, the platform features a clean, responsive design and smooth user interactions. It showcases my skills in building user-friendly interfaces, managing state efficiently, and creating dynamic web applications."
+           tech="#React #Redux #Redux Thunk #Node #Express #Mongodb #Tailwind CSS"
+           url="https://reviewbookplatform.netlify.app/"
+          />
         </div>
         <div id='contact' className="h-screen w-full text-white px-30 py-30 max-sm:h-[50vh] max-sm:px-10 max-sm:py-5">
           <div className="h-full w-full p-10 bg-cyan-700 rounded-lg">

@@ -96,7 +96,7 @@ function page() {
           I thrive in fast-paced environments, love solving complex problems, and continuously seek opportunities to grow and deliver impactful solutions.
           </p>
         </section>
-        <div className="flex flex-wrap max-sm:flex-wrap max-sm:gap-10 gap-40 w-full px-30 pb-35 max-sm:px-10 max-sm:py-25">
+        <div className="flex flex-wrap max-sm:flex-wrap max-sm:gap-3 gap-40 w-full px-30 pb-35 max-sm:px-10 max-sm:py-25">
           <Card 
           h="AI Vedio Chat App" 
           img={project1}

@@ -18,6 +18,9 @@ export default function RootLayout({ children }) {
         <title>
           Portfolio
         </title>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2915175777820694"
+          crossorigin="anonymous">
+        </script>
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

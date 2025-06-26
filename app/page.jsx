@@ -27,7 +27,7 @@ function page() {
   return (
     <>
     <div className="w-full bg-gray-900">
-      <div className={`flex item-center justify-between max-sm:items-center max-sm:justify-between transition-all duration-300 fixed top-0 z-10 bg-black w-full py-6 px-20 max-sm:px-10  ${scrolled ? 'bg-black text-cyan-100 shadow-lg' : 'bg-transparent text-cyan-400'}`}>
+      <div className={`flex item-center justify-between max-sm:items-center max-sm:justify-between transition-all duration-300 fixed top-0 z-10 bg-black w-full py-6 px-20 max-sm:px-10  ${scrolled ? 'bg-white text-cyan-100 shadow-lg backdrop-blur-md' : 'bg-transparent text-cyan-400'}`}>
         <h1 className='font-black text-[2vw] max-sm:text-[7vw] flex items-center justify-center hover:cursor-pointer transition duration-400 ease-in-out hover:scale-105'>Kushal</h1>
         <nav className="shadow z-50 p-4 max-sm:hidden">
           <ul className="flex justify-center gap-10">

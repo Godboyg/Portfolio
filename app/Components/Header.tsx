@@ -26,7 +26,7 @@ function Header() {
         <ul className='hidden sm:flex w-full h-full items-center justify-around hover:cursor-pointer'>
             {
                 HeaderName.map((name : string) => (
-                    <li>
+                    <li key={name}>
                         <Link
                         to={name}
                         smooth={true}

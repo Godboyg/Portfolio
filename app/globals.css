@@ -1,26 +1,27 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+body{
+  background-color: black;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@keyframes cyanGlow {
+  0% {
+    box-shadow: 15px 0px 25px rgba(21,94,117,0.7);   /* right */
+  }
+  25% {
+    box-shadow: 0px 15px 25px rgba(21,94,117,0.7);   /* bottom */
+  }
+  50% {
+    box-shadow: -15px 0px 25px rgba(21,94,117,0.7);  /* left */
+  }
+  75% {
+    box-shadow: 0px -15px 25px rgba(21,94,117,0.7);  /* top */
+  }
+  100% {
+    box-shadow: 15px 0px 25px rgba(21,94,117,0.7);   /* back to right */
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.cyan-shadow {
+  animation: cyanGlow 4s linear infinite;
 }

@@ -1,103 +1,70 @@
-import Image from "next/image";
+"use client"
+import React from 'react'
+import { motion } from "motion/react";
+import Header from './Components/Header';
+import { ReactTyped } from "react-typed";
 
-export default function Home() {
+function page() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+    <>
+    <div className='relative h-screen w-full flex flex-col items-center justify-center bg-black text-white'>
+      <div className="absolute top-1">
+        <Header />
+      </div>
+      <div className="">
+        <motion.h1
+         initial={{ opacity: 0, y: 200 }}
+         animate={{ opacity: 1, y: 0 }}
+         transition={{ duration: 0.8 }}
+         className="text-3xl text-center font-light"
+        > 
+        Hey!! There , I’m <span className="text-cyan-400 font-bold">Kushal Singh Negi</span>
+        </motion.h1>
+      </div>
+      <div className="absolute p-2 top-100 md:top-90 md:left-70 w-[85vw] h-[33vh] md:w-[40vw] md:h-[30vh] text-white">
+        <p className='non-italic sm:italic md:text-2xl'>“Full-Stack MERN Developer | Turning ideas into scalable web apps.”</p>
+        <ReactTyped
+        strings={[
+          "Full-Stack MERN Developer",
+          "Building real-time apps with WebSockets and WebRTC",
+          "Exploring Solana & Blockchain.",
+        ]}
+        typeSpeed={40}
+        backSpeed={40}
+        loop
+        className="text-lg md:text-2xl text-cyan-300 italic"
         />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+        <div className="">
+           <a
+           href='https://drive.google.com/file/d/1AVWv2nY-OxXjCGbEJWiGsPcLYZzHU8Aa/view'
+           target='_blank'
+            className="absolute bottom-0 px-8 py-3 flex items-center justify-center hover:cursor-pointer bg-cyan-500 text-black font-semibold rounded-xl shadow-lg hover:bg-cyan-400 transition">
+              Resume
+           </a>
+           <a
+          href="#contact"
+          className="absolute hidden sm:block bottom-0 left-50 px-8 py-3 border border-cyan-500 text-cyan-400 font-semibold rounded-xl shadow-lg hover:bg-cyan-500 hover:text-black transition"
+        >
+          Hire Me
+        </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+      </div>
     </div>
-  );
+    <div className="h-screen w-full">
+        <section id='about' className='h-screen w-full flex items-center justify-center'>
+          <div className="w-[80vw] h-[50vh] md:w-[60vw] md:h-[40vh]">
+            <h1 className='text-[2rem] font-bold sm:font-light bg-gradient-to-l from-black to-blue-500 text-transparent sm:text-white
+            bg-clip-text'>About Me!</h1>
+            <p className='text-white italic mt-5 leading-7 sm:leading-loose text-lg'>I’m a 3rd-year Computer Science student and a passionate <span className='font-bold text-cyan-500 text-xl'>Full-Stack MERN developer</span>.  
+              I enjoy building <span className='text-cyan-500 non-italic font-bold text-xl'>scalable, user-friendly web applications</span> and exploring innovative ideas.  
+              Currently diving into <span className='text-xl text-cyan-500 font-bold'>Solana and Web3</span>, I aim to create impactful digital solutions  
+              while constantly sharpening my skills with new technologies.  
+            </p>
+          </div>
+        </section>
+      </div>
+    </>
+  )
 }
+
+export default page

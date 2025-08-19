@@ -16,12 +16,12 @@ function page() {
          initial={{ opacity: 0, y: 200 }}
          animate={{ opacity: 1, y: -50 }}
          transition={{ duration: 0.8 }}
-         className="text-4xl md:text-5xl  text-center w-[90vw] font-light"
+         className="text-4xl md:text-5xl text-center w-[90vw] font-light"
         > 
         Hey!! There , I’m <span className="text-cyan-400 font-bold">Kushal Singh Negi</span>
         </motion.h1>
       </div>
-      <div className="absolute p-2 top-100 md:top-90 md:left-70 w-[85vw] h-[33vh] md:w-[40vw] md:h-[30vh] text-white">
+      <div className="absolute p-2 top-100 md:top-90 md:left-70 w-[90vw] h-[33vh] md:w-[40vw] md:h-[30vh] text-white">
         <p className='non-italic sm:italic md:text-2xl'>“Full-Stack MERN Developer | Turning ideas into scalable web apps.”</p>
         <ReactTyped
         strings={[
@@ -52,7 +52,7 @@ function page() {
     </div>
     <div className="h-screen w-full flex items-center justify-center">
         <section id='about' className='h-full w-[90vw] sm:w-[60vw] flex items-center justify-center'>
-          <div className="w-[90vw] h-[50vh] md:w-[60vw] md:h-[40vh]">
+          <div className="w-[90vw] h-[80vh] md:w-[60vw] md:h-[60vh]">
             <h1 className='text-[2rem] font-bold sm:font-light bg-gradient-to-l from-black to-blue-500 text-transparent sm:text-white
             bg-clip-text'>About Me!</h1>
             <p className='text-white non-italic sm:italic mt-5 leading-loose text-lg'>I’m a 3rd-year Computer Science student and a passionate <span className='font-bold text-cyan-500 text-xl'>Full-Stack MERN developer</span>.  
@@ -71,14 +71,19 @@ function page() {
         </section>
     </div>
     <div className="h-screen w-full flex items-center justify-center">
-       <section id="skills" className="py-20 w-[95vw] sm:w-[60vw] mt-40 bg-gray-950 text-white">
-        <div className="max-w-6xl mx-auto px-6">
-         <h2 className="text-4xl font-bold text-center mb-12">Skills</h2>
+       <section id="skills" className="py-20 w-[95vw] h-[90vh] sm:w-[60vw] mt-10 bg-gray-950 text-white">
+        <div className="max-w-6xl mx-auto px-3">
+         <h2 className="text-[2rem] font-bold sm:font-light bg-gradient-to-l from-black to-blue-500 text-transparent sm:text-white
+            bg-clip-text text-center mb-12">Skills</h2>
 
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center">
       
       <div className="p-6 rounded-2xl bg-gray-900 shadow-md hover:shadow-cyan-400/50 transition duration-300">
-        <img src="/icons/react.svg" alt="React" className="w-12 h-12 mx-auto mb-4" />
+        <img src="/next.svg" alt="React" className="w-12 h-12 mx-auto mb-4" />
+        <p className="text-lg font-medium">React</p>
+      </div>
+      <div className="p-6 rounded-2xl bg-gray-900 shadow-md hover:shadow-cyan-400/50 transition duration-300">
+        <img src="/next.svg" alt="React" className="w-12 h-12 mx-auto mb-4" />
         <p className="text-lg font-medium">React</p>
       </div>
 

@@ -50,9 +50,9 @@ function page() {
         </div>
       </div>
     </div>
-    <div className="h-screen w-full">
-        <section id='about' className='h-full w-full flex items-center justify-center'>
-          <div className="w-[80vw] h-[50vh] md:w-[60vw] md:h-[40vh]">
+    <div className="h-screen w-full flex items-center justify-center">
+        <section id='about' className='h-full w-[90vw] sm:w-[60vw] flex items-center justify-center'>
+          <div className="w-[90vw] h-[50vh] md:w-[60vw] md:h-[40vh]">
             <h1 className='text-[2rem] font-bold sm:font-light bg-gradient-to-l from-black to-blue-500 text-transparent sm:text-white
             bg-clip-text'>About Me!</h1>
             <p className='text-white non-italic sm:italic mt-5 leading-loose text-lg'>I’m a 3rd-year Computer Science student and a passionate <span className='font-bold text-cyan-500 text-xl'>Full-Stack MERN developer</span>.  
@@ -60,7 +60,7 @@ function page() {
               Currently diving into <span className='text-xl text-cyan-500 font-bold'>Solana and Web3</span>, I aim to create impactful digital solutions  
               while constantly sharpening my skills with new technologies.  
             </p>
-             <blockquote className="relative mt-20 text-lg md:text-xl text-white leading-loose italic border-l-4 border-cyan-400 pl-6">
+             <blockquote className="relative mt-20 text-lg md:text-xl text-white lea sm:leading-loose italic border-l-4 border-cyan-400 pl-6">
               <span className="absolute -left-4 -top-4 text-cyan-400 text-6xl font-serif">“</span>
                 My journey started with curiosity for coding, which grew into a drive for 
                 developing real-world projects. When I’m not coding, I enjoy exploring 
@@ -71,7 +71,7 @@ function page() {
         </section>
     </div>
     <div className="h-screen w-full flex items-center justify-center">
-       <section id="skills" className="py-20 w-[90vw] sm:w-[60vw] bg-green-400 bg-gray-950 text-white">
+       <section id="skills" className="py-20 w-[95vw] sm:w-[60vw] mt-40 bg-gray-950 text-white">
         <div className="max-w-6xl mx-auto px-6">
          <h2 className="text-4xl font-bold text-center mb-12">Skills</h2>
 

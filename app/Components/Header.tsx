@@ -31,8 +31,8 @@ function Header() {
                         to={name}
                         smooth={true}
                         duration={500}
-                        activeClass="text-cyan-900"
-                        className="cursor-pointer"
+                        activeClass="text-red-500"
+                        className="cursor-pointer text-white"
                         >
                           <span className="font-light
                           relative after:content[''] after:absolute after:left-0 after:-bottom-1

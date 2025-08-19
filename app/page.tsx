@@ -3,6 +3,8 @@ import React from 'react'
 import { motion } from "motion/react";
 import Header from './Components/Header';
 import { ReactTyped } from "react-typed";
+import { FaArrowRight } from "react-icons/fa"
+import 'remixicon/fonts/remixicon.css'
 
 function page() {
   return (
@@ -10,6 +12,10 @@ function page() {
     <div className='relative h-screen w-full flex flex-col items-center justify-center bg-black text-white'>
       <div className="absolute top-1">
         <Header />
+      </div>
+      <div className="text-black font-semibold absolute p-3 bg-cyan-500 rounded-full top-30 sm:top-40 transition-all duration-150 ease-linear hover:cursor-pointer hover:scale-105 flex items-center justify-center gap-2">
+        <span>Available for Work</span>
+        <span><FaArrowRight /></span>
       </div>
       <div className="">
         <motion.h1
@@ -71,35 +77,45 @@ function page() {
         </section>
     </div>
     <div className="h-screen w-full flex items-center justify-center">
-       <section id="skills" className="py-20 w-[95vw] h-[90vh] sm:w-[60vw] mt-10 bg-gray-950 text-white">
+       <section id="skills" className="py-20 w-[95vw] h-full sm:w-[60vw] mt-10 text-white">
         <div className="max-w-6xl mx-auto px-3">
          <h2 className="text-[2rem] font-bold sm:font-light bg-gradient-to-l from-black to-blue-500 text-transparent sm:text-white
-            bg-clip-text text-center mb-12">Skills</h2>
+            bg-clip-text text-center mb-12 sm:mt-3">Skills</h2>
 
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center">
       
       <div className="p-6 rounded-2xl bg-gray-900 shadow-md hover:shadow-cyan-400/50 transition duration-300">
-        <img src="/next.svg" alt="React" className="w-12 h-12 mx-auto mb-4" />
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/react.svg" alt="React" className="w-12 h-12 mx-auto mb-4 invert" />
         <p className="text-lg font-medium">React</p>
       </div>
       <div className="p-6 rounded-2xl bg-gray-900 shadow-md hover:shadow-cyan-400/50 transition duration-300">
-        <img src="/next.svg" alt="React" className="w-12 h-12 mx-auto mb-4" />
-        <p className="text-lg font-medium">React</p>
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nextdotjs.svg" alt="React" className="w-12 h-12 mx-auto mb-4 invert" />
+        <p className="text-lg font-medium">Next</p>
       </div>
 
       <div className="p-6 rounded-2xl bg-gray-900 shadow-md hover:shadow-green-400/50 transition duration-300">
-        <img src="/icons/node.svg" alt="Node.js" className="w-12 h-12 mx-auto mb-4" />
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/nodedotjs.svg" alt="Node.js" className="w-12 h-12 mx-auto mb-4 invert" />
         <p className="text-lg font-medium">Node.js</p>
       </div>
 
       <div className="p-6 rounded-2xl bg-gray-900 shadow-md hover:shadow-emerald-400/50 transition duration-300">
-        <img src="/icons/mongodb.svg" alt="MongoDB" className="w-12 h-12 mx-auto mb-4" />
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/mongodb.svg" alt="MongoDB" className="w-12 h-12 mx-auto mb-4 invert" />
         <p className="text-lg font-medium">MongoDB</p>
       </div>
 
       <div className="p-6 rounded-2xl bg-gray-900 shadow-md hover:shadow-sky-400/50 transition duration-300">
-        <img src="/icons/tailwind.svg" alt="Tailwind CSS" className="w-12 h-12 mx-auto mb-4" />
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/tailwindcss.svg" alt="Tailwind CSS" className="w-12 h-12 mx-auto mb-4 invert" />
         <p className="text-lg font-medium">Tailwind CSS</p>
+      </div>
+
+      <div className="p-6 rounded-2xl bg-gray-900 shadow-md hover:shadow-green-400/50 transition duration-300">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/webrtc.svg" alt="Node.js" className="w-12 h-12 mx-auto mb-4 invert" />
+        <p className="text-lg font-medium">WebRTC</p>
+      </div>
+
+      <div className="p-6 rounded-2xl bg-gray-900 shadow-md hover:shadow-green-400/50 transition duration-300">
+        <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/socketdotio.svg" alt="Node.js" className="w-12 h-12 mx-auto mb-4 invert" />
+        <p className="text-lg font-medium">Sockect.Io</p>
       </div>
 
       {/* Add more cards here */}

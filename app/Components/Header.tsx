@@ -6,7 +6,7 @@ import 'remixicon/fonts/remixicon.css'
 
 function Header() {
 
-  const HeaderName: string[] = ["hero", "about" , "project" , "contact"];
+  const HeaderName: string[] = ["hero", "about" , "skills" , "project" , "contact"];
   const [ open, setOpen ] = useState<boolean>(false);
 
   return (

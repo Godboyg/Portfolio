@@ -13,14 +13,14 @@ function page() {
       <div className="absolute top-1">
         <Header />
       </div>
-      <div className="text-black font-semibold absolute p-3 bg-cyan-500 rounded-full top-30 sm:top-40 transition-all duration-150 ease-linear hover:cursor-pointer hover:scale-105 flex items-center justify-center gap-2">
+      <div className="text-black font-semibold absolute p-3 bg-cyan-500 rounded-full top-45 sm:top-40 transition-all duration-150 ease-linear hover:cursor-pointer hover:scale-105 flex items-center justify-center gap-2">
         <span>Available for Work</span>
         <span><FaArrowRight /></span>
       </div>
       <div className="">
         <motion.h1
          initial={{ opacity: 0, y: 200 }}
-         animate={{ opacity: 1, y: -50 }}
+         animate={{ opacity: 1, y: -60 }}
          transition={{ duration: 0.8 }}
          className="text-4xl md:text-5xl text-center w-[90vw] font-light"
         > 

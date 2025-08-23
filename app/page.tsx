@@ -5,6 +5,7 @@ import Header from './Components/Header';
 import { ReactTyped } from "react-typed";
 import { FaArrowRight } from "react-icons/fa"
 import 'remixicon/fonts/remixicon.css'
+import ProjectCard from './Components/ProjectCard';
 
 function page() {
   return (
@@ -79,8 +80,8 @@ function page() {
     <div className="h-screen w-full flex items-center justify-center">
        <section id="skills" className="py-20 w-[95vw] h-full sm:w-[60vw] mt-10 text-white">
         <div className="max-w-6xl mx-auto px-3">
-         <h2 className="text-[2rem] font-bold sm:font-light bg-gradient-to-l from-black to-blue-500 text-transparent sm:text-white
-            bg-clip-text text-center mb-12 sm:mt-3">Skills</h2>
+         <h1 className="text-[2rem] font-bold sm:font-light bg-gradient-to-l from-black to-blue-500 text-transparent sm:text-white
+            bg-clip-text text-center mb-12 sm:mt-3">Skills</h1>
 
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center">
       
@@ -117,11 +118,28 @@ function page() {
         <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/socketdotio.svg" alt="Node.js" className="w-12 h-12 mx-auto mb-4 invert" />
         <p className="text-lg font-medium">Sockect.Io</p>
       </div>
-
-      {/* Add more cards here */}
     </div>
         </div>
        </section>
+    </div>
+    <div className="h-screen w-full flex items-center justify-center">
+      <section id="project" className='mt-100 sm:mt-0 h-full w-[95vw] sm:w-[60vw] py-15'>
+        <h1 className="text-[2rem] font-bold sm:font-light bg-gradient-to-l from-black to-blue-500 text-transparent sm:text-white
+            bg-clip-text text-center mb-12 sm:mt-3">Projects</h1>
+        <div className="text-white flex items-center justify-center flex-col gap-4">
+          <ProjectCard 
+            title="RiverSide Clone" 
+            decription="Developed a Riverside-like web application enabling multi-user podcast recording with WebRTC. Implemented real-time audio/video streaming, local recording, and dynamic grid layouts. Integrated controls for mute, volume, and camera/audio toggling, and used FFmpeg for post-processing and HLS export." 
+            img="/project1.jpeg"/>
+          {/* <ProjectCard />
+          <ProjectCard /> */}
+        </div>
+      </section>
+    </div>
+    <div className="h-screen w-full flex items-center justify-center">
+      <section id='contact' className='mt-90 sm:mt-0 h-full w-[90vw] sm:w-[60vw]'>
+        kushal
+      </section>
     </div>
     </>
   )

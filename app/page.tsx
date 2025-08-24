@@ -3,14 +3,16 @@ import React from 'react'
 import { motion } from "motion/react";
 import Header from './Components/Header';
 import { ReactTyped } from "react-typed";
-import { FaArrowRight } from "react-icons/fa"
+import { FaArrowRight, FaGithub, FaLinkedin } from "react-icons/fa"
 import 'remixicon/fonts/remixicon.css'
 import ProjectCard from './Components/ProjectCard';
+import { FaSquareXTwitter } from 'react-icons/fa6';
 
 function page() {
   return (
     <>
-    <div className='relative h-screen w-full flex flex-col items-center justify-center bg-black text-white'>
+    <div className="flex flex-col">
+    <div className='relative min-h-screen w-full flex flex-col items-center justify-center bg-black text-white'>
       <div className="absolute top-1">
         <Header />
       </div>
@@ -77,11 +79,11 @@ function page() {
           </div>
         </section>
     </div>
-    <div className="h-screen w-full flex items-center justify-center">
+    <div className="min-h-screen w-full flex items-center justify-center">
        <section id="skills" className="py-20 w-[95vw] h-full sm:w-[60vw] mt-10 text-white">
-        <div className="max-w-6xl mx-auto px-3">
+        <div className="max-w-6xl mx-auto flex-1 px-3">
          <h1 className="text-[2rem] font-bold sm:font-light bg-gradient-to-l from-black to-blue-500 text-transparent sm:text-white
-            bg-clip-text text-center mb-12 sm:mt-3">Skills</h1>
+            bg-clip-text text-center mb-12">Skills</h1>
 
     <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 text-center">
       
@@ -122,24 +124,50 @@ function page() {
         </div>
        </section>
     </div>
-    <div className="h-screen w-full flex items-center justify-center">
-      <section id="project" className='mt-100 sm:mt-0 h-full w-[95vw] sm:w-[60vw] py-15'>
+    <div className="min-h-screen w-full flex items-center justify-center">
+      <section id="project" className='w-[95vw] sm:w-[60vw] py-15'>
         <h1 className="text-[2rem] font-bold sm:font-light bg-gradient-to-l from-black to-blue-500 text-transparent sm:text-white
             bg-clip-text text-center mb-12 sm:mt-3">Projects</h1>
-        <div className="text-white flex items-center justify-center flex-col gap-4">
+        <div className="text-white flex items-center justify-center flex-col gap-15">
           <ProjectCard 
             title="RiverSide Clone" 
-            decription="Developed a Riverside-like web application enabling multi-user podcast recording with WebRTC. Implemented real-time audio/video streaming, local recording, and dynamic grid layouts. Integrated controls for mute, volume, and camera/audio toggling, and used FFmpeg for post-processing and HLS export." 
-            img="/project1.jpeg"/>
-          {/* <ProjectCard />
-          <ProjectCard /> */}
+            description="Developed a Riverside-like web application enabling multi-user podcast recording with WebRTC. Implemented real-time audio/video streaming, local recording, and dynamic grid layouts. Integrated controls for mute, volume, and camera/audio toggling, and used FFmpeg for post-processing and HLS export." 
+            img="/project1.jpeg"
+            link="https://riverside-clone.netlify.app/"
+            code="https://github.com/Godboyg/RiverSider-Clone"
+            tech="#MERN #WebRTC #Sockets #FFmpeg #Redux"/>
+          <ProjectCard 
+            title="Deep Meet" 
+            description="Built a real-time AI-powered video chat app that matches users based on shared interests using WebRTC, Socket.IO, and MongoDB. Implemented features like smart interest matching, typing indicators, and call switching for an engaging user experience." 
+            img="/project2.jpeg"
+            link="https://deepmeet.netlify.app/"
+            code="https://github.com/Godboyg/AiVideoChatAPPFrontend"
+            tech="#MERN #WebRTC #Sockets"/>
+            <ProjectCard 
+            title="Review Book Platform" 
+            description="Developed a full-stack book review platform where users can browse, review, and rate books. Implemented authentication, review management, and a responsive UI using React, Node.js, and MongoDB." 
+            img="/project3.jpeg"
+            link="https://reviewbookplatform.netlify.app/"
+            code="https://github.com/Godboyg/Review-Book-Frontend"
+            tech="#MERN #Redux"/>
         </div>
       </section>
     </div>
     <div className="h-screen w-full flex items-center justify-center">
-      <section id='contact' className='mt-90 sm:mt-0 h-full w-[90vw] sm:w-[60vw]'>
-        kushal
+      <section id='contact' className='w-[90vw] h-[80vh] py-10 px-6 sm:p-6 sm:h-[70vh] rounded-md bg-gradient-to-r from-green-500 to-blue-700 sm:w-[60vw]'>
+        <div className="text-white h-full w-full flex flex-col gap-5">
+          <a href="https://www.linkedin.com/in/kushal-singh-negi-80ab502a8/">
+            <span className='font-bold text-5xl'><FaLinkedin /></span>
+          </a>
+          <a href="https://x.com/kushalthakur091">
+            <span className='font-bold text-5xl'><FaSquareXTwitter /></span>
+          </a>
+          <a href="https://github.com/Godboyg?tab=repositories">
+            <span className='font-bold text-5xl'><FaGithub /></span>
+          </a>
+        </div>
       </section>
+    </div>
     </div>
     </>
   )

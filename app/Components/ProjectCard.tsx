@@ -9,7 +9,7 @@ function ProjectCard(props : { title : string , description : string , img : str
         <img src={props.img} alt="" className='h-full w-full object-cover hover:scale-120
         hover:cursor-pointer transition-all duration-300 ease-in-out'/>
       </div>
-      <div className="w-full sm:w-[50%] sm:max-h-[50vh] sm:p-3 text-center overflow-auto">
+      <div className="w-full sm:w-[50%] sm:max-h-[55vh] sm:p-3 text-center overflow-auto">
         <h1 className='font-bold text-xl bg-gradient-to-r from-purple-500 to-blue-900 bg-clip-text text-transparent'>{props.title}</h1>
         <p className='mt-3'>{props.description}</p>
         <p className='mt-3 text-cyan-600 font-bold'>{props.tech}</p>

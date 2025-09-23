@@ -138,11 +138,12 @@ function page() {
             tech="#MERN #WebRTC #Sockets #FFmpeg #Redux"/>
             <ProjectCard 
             title="White-Board" 
-            description="Developed a Riverside-like web application enabling multi-user podcast recording with WebRTC. Implemented real-time audio/video streaming, local recording, and dynamic grid layouts. Integrated controls for mute, volume, and camera/audio toggling, and used FFmpeg for post-processing and HLS export." 
-            img="/project1.jpeg"
-            link="https://riverside-clone.netlify.app/"
-            code="https://github.com/Godboyg/RiverSider-Clone"
-            tech="#MERN #WebRTC #Sockets #FFmpeg #Redux"/>
+            description="Developed a real-time collaborative whiteboard application using Next.js (React + TypeScript) for the frontend 
+                    and Node.js with Socket.IO for the backend. " 
+            img="/white-board.jpeg"
+            link="https://white-board-client-eta.vercel.app/"
+            code="https://github.com/Godboyg/WhiteBoard-client"
+            tech="#Next/Reactjs #TypeScript #TailwindCSS #Nodejs #Socket.IO "/>
           <ProjectCard 
             title="Deep Meet" 
             description="Built a real-time AI-powered video chat app that matches users based on shared interests using WebRTC, Socket.IO, and MongoDB. Implemented features like smart interest matching, typing indicators, and call switching for an engaging user experience." 

@@ -14,7 +14,7 @@ function Header() {
     <div id='hero' className='w-full p-1 h-20 flex items-center justify-center'>
       <div className="w-[90vw] fixed z-5 sm:w-[80vw] md:w-[70vw] lg:w-[60vw] h-12 p-1
        bg-transparent backdrop-blur-sm flex items-center rounded-xl
-       cyan-shadow shadow shadow-cyan-700 ">   
+       cyan-shadow shadow">   
         <div className="flex items-center w-full justify-between sm:hidden">
           <p className='ml-2 text-xl bg-gradient-to-r from-black to-blue-500 text-transparent 
            bg-clip-text font-bold'>Portfolio</p>

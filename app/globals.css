@@ -9,13 +9,13 @@ body{
     box-shadow: 15px 0px 25px rgba(21,94,117,0.7);   /* right */
   }
   25% {
-    box-shadow: 0px 15px 25px rgba(21,94,117,0.7);   /* bottom */
+    box-shadow: 0px 15px 25px rgba(21,94,117,0.9);   /* bottom */
   }
   50% {
     box-shadow: -15px 0px 25px rgba(21,94,117,0.7);  /* left */
   }
   75% {
-    box-shadow: 0px -15px 25px rgba(21,94,117,0.7);  /* top */
+    box-shadow: 0px -15px 25px rgba(21,94,117,0.9);  /* top */
   }
   100% {
     box-shadow: 15px 0px 25px rgba(21,94,117,0.7);   /* back to right */

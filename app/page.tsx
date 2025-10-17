@@ -22,9 +22,9 @@ function page() {
       </div>
       <div className="">
         <motion.h1
-         initial={{ opacity: 0, y: 200 }}
-         animate={{ opacity: 1, y: -60 }}
-         transition={{ duration: 0.8 }}
+         initial={{ opacity: 0, filter: "blur(10px)", y: 200 }}
+         animate={{ opacity: 1, filter: "blur(0px)", y: -60 }}
+         transition={{ duration: 1 , ease: "easeOut" }}
          className="text-4xl md:text-5xl text-center w-[90vw] font-light"
         > 
         Hey!! There , I’m <span className="text-cyan-400 font-bold">Kushal Singh Negi</span>

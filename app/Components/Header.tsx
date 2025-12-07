@@ -47,7 +47,7 @@ function Header() {
     </div>
     <div
         className={`fixed top-0 left-0 w-full h-full flex items-center justify-center 
-        transition-transform duration-900 ease-in
+        transition-transform duration-900 ease-in bg-green-500
         ${open ? "-translate-y-220 z-30 opacity-100" : "translate-y-[100vh] opacity-0"}`}
       >
         🚀 I slide up from bottom to top!

@@ -45,13 +45,13 @@ function Header() {
         </ul>
       </div>
     </div>
-    <div
+    {/* <div
         className={`fixed top-0 left-0 w-full h-full flex items-center justify-center 
         transition-transform duration-900 ease-in bg-green-500
         ${open ? "-translate-y-220 z-30 opacity-100" : "translate-y-[100vh] opacity-0"}`}
       >
         🚀 I slide up from bottom to top!
-      </div>
+      </div> */}
     <div className={`fixed top-0 left-0 h-screen w-full bg-black ${open ? "block z-10 bg-transparent bg-opacity-50 backdrop-blur-sm" : "hidden z-0"}`}>
       <p className='absolute top-8 z-35 right-8 hover:cursor-pointer text-white'
       onClick={e => setOpen(false)}>close</p>
